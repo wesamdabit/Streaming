@@ -9,22 +9,22 @@ client.on('message', message => {
      
   if (message.content.startsWith(adminprefix + 'setg')) {
     client.user.setGame(argresult);
-      message.channel.send(`LastCodes   ${argresult}**`)
+      message.channel.send(`✬゜ D3S CoMmUnitY ✬゜   ${argresult}**`)
   } else
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
   } else  
   if (message.content.startsWith(adminprefix + 'setw')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`LastCodes   ${argresult}**`)
+      message.channel.send(`✬゜ D3S CoMmUnitY ✬゜   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'setl')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`LastCodes   ${argresult}**`)
+      message.channel.send(`✬゜ D3S CoMmUnitY ✬゜   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'sets')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/One");
-      message.channel.send(`LastCodes`)
+    client.user.setGame(argresult, "https://www.twitch.tv/wesamdabit");
+      message.channel.send(`✬゜ D3S CoMmUnitY ✬゜`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
